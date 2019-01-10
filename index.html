@@ -2,36 +2,37 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>HTML template</title>
+  <title>Masthead semantics</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
-  {logo}
+
   <header>
+    <a href="#" alt="logo">logo</a>
     <h1>The Solar System</h1>
   </header>
 
+  <nav>
+    <ol>
+      <li>Stars</li>
+      <li>Terrestrial planets</li>
+      <li>Gas giants</li>
+      <li>Dwarf planets</li>
+      <li>Asteroids</li>
+      <li>Comets</li>
+    </ol>
+  </nav>
 
-  [Stars]
-  [Terrestrial planets]
-  [Gas giants]
-  [Dwarf planets]
-  [Asteroids]
-  [Comets]
-
-  ---
-
-  {banner}
-  The Solar System—our home in the stars
-
-  ---
-
-  The Solar System is the gravitationally bound system comprising the Sun and the planetary system that orbits it.
   <main>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <img src="images/logo.svg" alt="">
-    <a href="https://www.wikipedia.org">Wikipedia</a>
+
+    <figure>
+      <a href="#" alt="banner">banner</a>
+      <figcaption>The Solar System—our home in the stars</figcaption>
+    </figure>
+
+    <p>The Solar System is the gravitationally bound system comprising the Sun and the planetary system that orbits it.</p>
+
   </main>
 
 </body>
